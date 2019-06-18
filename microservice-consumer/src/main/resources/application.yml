@@ -1,3 +1,14 @@
-server:
+server: 
   port: 8003
   context-path: /microservice-consumer
+spring:
+  application:
+    name: microservice-consumer                          #微服务的名字
+eureka:
+  client:
+    #register-with-eureka: false
+    service-url: 
+      defaultZone: http://localhost:9001/eureka/
+  instance:
+    instance-id: microservicecloud-consumer8003
+    prefer-ip-address: true

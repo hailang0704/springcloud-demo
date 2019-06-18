@@ -11,7 +11,9 @@ import java.util.List;
 
 @RestController
 public class UserConsumerController {
-    private static String REST_URL_PREFIX = "http://localhost:8002";
+	//为服务名+上线文路径
+	private static String REST_URL_PREFIX = "http://microservice-provider/microservice-provider";
+//    private static String REST_URL_PREFIX = "http://localhost:8002/microservice-provider";
     @Autowired
     private RestTemplate restTemplate;
 
