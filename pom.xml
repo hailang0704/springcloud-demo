@@ -28,8 +28,11 @@
 		<module>microservice-provider</module>
 		<module>microservice-consumer</module>
 		<module>microservice-eureka1</module>
+		<module>microservice-zull</module>
 		<module>microservice-hystrix</module>
+		<module>microservice-hystrix-dashboard</module>
 		<module>microservice-consumer-feign</module>
+		<module>microservice-consumer-feign-htstrix</module>
 	</modules>
 
 	<properties>
