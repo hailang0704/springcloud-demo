@@ -7,10 +7,11 @@
 		<groupId>com.lzt.springcloud</groupId>
 		<artifactId>microservice-parent</artifactId>
 		<version>1.0-SNAPSHOT</version>
-		<!--<relativePath>../pom.xml</relativePath> --> <!-- lookup parent from repository -->
+		<!--<relativePath>../pom.xml</relativePath>--> <!-- lookup parent from repository -->
 	</parent>
 	<artifactId>microservice-eureka1</artifactId>
 	<name>microservice-eureka1</name>
+	<packaging>jar</packaging>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
